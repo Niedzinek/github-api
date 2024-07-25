@@ -27,21 +27,15 @@ This project provides a RESTful API to fetch GitHub repository information for a
    git clone https://github.com/Niedzinek/github-api.git
    ```
 
-2. Navigate to the project directory:
+2. Navigate to the project directory
 
-4. Build the project using Maven:
+3. Build the project using Maven:
    ```bash
    mvn clean install
    ```
 
 ### Running the application
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
 
-     To run the application, use the following command:
 
 
