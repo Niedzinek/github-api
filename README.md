@@ -71,7 +71,7 @@ curl -X GET http://localhost:8080/Niedzinek
            "name": "dev",
            "lastCommitSha": "commit-sha2"
          }
-       ]
+     ]
         },
         {
           "repositoryName": "repository2",
