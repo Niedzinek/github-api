@@ -85,6 +85,12 @@ curl -X GET http://localhost:8080/Niedzinek
         }
      ]
      ```
-
-
+   - 404 Not Found
+     
+     ```
+     {
+        "status": 404,
+        "message": "User not found"
+     }
+     ```
 
