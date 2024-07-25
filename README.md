@@ -42,7 +42,7 @@ This project provides a RESTful API for fetching GitHub repository information f
 
 ## Usage
 
-### Endpoints
+- Endpoints
 
    ```
    GET /{username}
