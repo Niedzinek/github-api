@@ -58,17 +58,31 @@ curl -X GET http://localhost:8080/Niedzinek
 
   ```
   [
-     {
-       "repositoryName": "Hello-World",
-        "ownerLogin": "octocat",
-        "branchList": [
-        {
+  {
+    "repositoryName": "repository1",
+    "ownerLogin": "username",
+    "branchList": [
+      {
         "name": "main",
-        "lastCommitSha": "d6f7f8b..."
-        }  
-       ]  
-     }  
-  ]
+        "lastCommitSha": "commit-sha1"
+      },
+      {
+        "name": "dev",
+        "lastCommitSha": "commit-sha2"
+      }
+    ]
+  },
+  {
+    "repositoryName": "repository2",
+    "ownerLogin": "username",
+    "branchList": [
+      {
+        "name": "main",
+        "lastCommitSha": "commit-sha3"
+      }
+    ]
+  }
+]
   ```
 
 
