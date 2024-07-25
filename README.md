@@ -36,6 +36,12 @@ This project provides a RESTful API to fetch GitHub repository information for a
 
 ### Running the application
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
      To run the application, use the following command:
 
 
