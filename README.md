@@ -31,7 +31,7 @@ This project provides a RESTful API to fetch GitHub repository information for a
 4. Build the project using Maven:
    ```bash
    mvn clean install
-   ```
+   ``````
 
 ### Running the application
      To run the application, use the following command:
