@@ -4,7 +4,7 @@
 
 This project provides a RESTful API to fetch GitHub repository information for a given username. It retrieves repositories, their branches, and the latest commit for each branch, returning the data in a structured JSON format.
 
-<p style="color: green; font-size: 38px;">Features</p>
+Features
 
 - Fetches all repositories for a given GitHub username.
 - Excludes forked repositories.
