@@ -23,20 +23,19 @@ This project provides a RESTful API to fetch GitHub repository information for a
 ### Installation
 
 1. Clone the repository:
-   ```
+   `````
    git clone https://github.com/Niedzinek/github-api.git
-   ```
+   `````
 
 2. Navigate to the project directory:
 
 4. Build the project using Maven:
-   ```
+   `````
    mvn clean install
-   ```
+   `````
 
 ### Running the application
 
      To run the application, use the following command:
-`asdada`
 
 
