@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project provides a RESTful API to fetch GitHub repository information for a given username. It retrieves repositories, their branches, and the latest commit for each branch, returning the data in a structured JSON format.
+This project provides a RESTful API for fetching GitHub repository information for a given username. It retrieves repositories (excluding forks), their branches, and the latest commit for each branch, returning the data in a structured JSON format.
 
 ## Features
 
@@ -14,13 +14,13 @@ This project provides a RESTful API to fetch GitHub repository information for a
 
 ## Getting Started
 
-### Prerequisites
+## Prerequisites
 
 - Java 11 or higher
 - Maven 3.6.3 or higher
 - Git
 
-### Installation
+## Installation
 
 1. Clone the repository:
    ```bash
@@ -39,5 +39,13 @@ This project provides a RESTful API to fetch GitHub repository information for a
    ```bash
    mvn spring-boot:run
    ```
+
+## Usage
+
+### Endpoints
+
+```
+/GET /{username}
+```
 
 
