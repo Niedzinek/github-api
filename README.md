@@ -54,3 +54,20 @@ GET /{username}
 curl -X GET http://localhost:8080/Niedzinek
 ```
 
+- Example response
+
+  `[
+  {
+    "repositoryName": "Hello-World",
+    "ownerLogin": "octocat",
+    "branchList": [
+      {
+        "name": "main",
+        "lastCommitSha": "d6f7f8b..."
+      }
+    ]
+  }
+]`
+
+
+
