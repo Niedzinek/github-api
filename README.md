@@ -23,14 +23,14 @@ This project provides a RESTful API to fetch GitHub repository information for a
 ### Installation
 
 1. Clone the repository:
-   ```
+   ```bash
    git clone https://github.com/Niedzinek/github-api.git
    ```
 
 2. Navigate to the project directory:
 
 4. Build the project using Maven:
-   ```
+   ```bash
    mvn clean install
    ```
 
