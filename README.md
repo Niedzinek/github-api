@@ -33,8 +33,8 @@ This project provides a RESTful API to fetch GitHub repository information for a
    mvn clean install
 
 ### Running the application
-1.  To run the application, use the following command:
-   ```bash
-   mvn spring-boot:run
+     To run the application, use the following command:
+         ```bash
+         mvn spring-boot:run
 
 
