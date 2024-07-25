@@ -38,8 +38,8 @@ This project provides a RESTful API to fetch GitHub repository information for a
 
 To run the application use following command:
 
-   ```bash
-   mvn clean install
-   ```
+    ```bash
+    mvn clean install
+    ```
 
 
