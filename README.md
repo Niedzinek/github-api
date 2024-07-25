@@ -71,18 +71,18 @@ curl -X GET http://localhost:8080/Niedzinek
         "lastCommitSha": "commit-sha2"
       }
     ]
-  },
-  {
-    "repositoryName": "repository2",
-    "ownerLogin": "username",
-    "branchList": [
-      {
-        "name": "main",
-        "lastCommitSha": "commit-sha3"
-      }
-    ]
-  }
-]
+     },
+     {
+       "repositoryName": "repository2",
+       "ownerLogin": "username",
+       "branchList": [
+         {
+           "name": "main",
+           "lastCommitSha": "commit-sha3"
+         }
+       ]
+     }
+   ]
 
   ```
 
