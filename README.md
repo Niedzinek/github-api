@@ -56,7 +56,8 @@ curl -X GET http://localhost:8080/Niedzinek
 
 - Example response
 
-  `[
+  ```
+  [
   {
     "repositoryName": "Hello-World",
      "ownerLogin": "octocat",
@@ -67,7 +68,7 @@ curl -X GET http://localhost:8080/Niedzinek
      }  
     ]  
   }  
-]`
+]```
 
 
 
