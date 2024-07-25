@@ -55,37 +55,37 @@ curl -X GET http://localhost:8080/Niedzinek
 ```
 
 - Example response
-   - ddd
+   - 200 OK
 
-  ```
-  [
-  {
-    "repositoryName": "repository1",
-    "ownerLogin": "username",
-    "branchList": [
-      {
-        "name": "main",
-        "lastCommitSha": "commit-sha1"
-      },
-      {
-        "name": "dev",
-        "lastCommitSha": "commit-sha2"
-      }
-    ]
-     },
+     ```
+     [
      {
-       "repositoryName": "repository2",
+       "repositoryName": "repository1",
        "ownerLogin": "username",
        "branchList": [
          {
            "name": "main",
-           "lastCommitSha": "commit-sha3"
+           "lastCommitSha": "commit-sha1"
+         },
+         {
+           "name": "dev",
+           "lastCommitSha": "commit-sha2"
          }
        ]
-     }
-   ]
+        },
+        {
+          "repositoryName": "repository2",
+          "ownerLogin": "username",
+          "branchList": [
+            {
+              "name": "main",
+              "lastCommitSha": "commit-sha3"
+            }
+          ]
+        }
+      ]
 
-  ```
+     ```
 
 
 
