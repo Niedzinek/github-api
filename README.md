@@ -93,4 +93,12 @@ curl -X GET http://localhost:8080/Niedzinek
         "message": "User not found"
      }
      ```
+   - 500 Internal error
+
+     ```
+     {
+        "status": 500,
+        "message": "An unexpected error occurred"
+     }
+     ```
 
