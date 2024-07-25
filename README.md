@@ -48,7 +48,7 @@ This project provides a RESTful API for fetching GitHub repository information f
 GET /{username}
 ```
 
--Example usage
+- Example usage
 
 ```
 curl -X GET http://localhost:8080/Niedzinek
