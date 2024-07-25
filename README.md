@@ -37,7 +37,7 @@ This project provides a RESTful API to fetch GitHub repository information for a
 4. To run the application use following command:
 
    ```bash
-   mvn clean install
+   mvn spring-boot:run
    ```
 
 
