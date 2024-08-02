@@ -112,68 +112,6 @@ private List<RepositoryDto> toRepositoryDtos(List<Repository> repositories){
     }
 }
 
-//    public List<RepositoryDto> findAllRepositoriesByUsername(String username){
-//            List<Repository> repositories = webClient.get()
-//                    .uri("/users/{username}/repos", username)
-//                    .retrieve()
-//                    .onStatus(HttpStatusCode::isError, clientResponse -> {
-//                        if (clientResponse.statusCode() == HttpStatus.NOT_FOUND) {
-//                            return Mono.error(new UserNotFoundException("User Not found"));
-//                        } else {
-//                            return Mono.error(new RuntimeException("An error occured"));
-//                        }
-//                    })
-//                    .bodyToFlux(Repository.class)
-//                    .filter(repo -> !repo.isFork())
-//                    .collectList()
-//                    .block();
-//
-//            if (repositories == null) {
-//                throw new ServerErrorException("Failed to fetch repositories");
-//            }
-//
-//            repositories.forEach(repo -> {
-//                List<Branch> branches = webClient.get()
-//                        .uri("/repos/{owner}/{repo}/branches", repo.getOwner().getLogin(), repo.getName())
-//                        .retrieve()
-//                        .bodyToFlux(Branch.class)
-//                        .collectList()
-//                        .block();
-//
-//                branches.forEach(branch -> {
-//                    Commit commit = webClient.get()
-//                            .uri("/repos/{owner}/{repo}/commits/{branch}", repo.getOwner().getLogin(), repo.getName(), branch.getName())
-//                            .retrieve()
-//                            .bodyToMono(Commit.class)
-//                            .block();
-//                    branch.setLastCommit(commit);
-//
-//                });
-//
-//                repo.setBranches(branches);
-//            });
-//            List<RepositoryDto> repositoryDtoList = new ArrayList<>();
-//            repositories.forEach(repo -> {
-//                RepositoryDto dto = new RepositoryDto();
-//                dto.setRepositoryName(repo.getName());
-//                dto.setOwnerLogin(repo.getOwner().getLogin());
-//
-//                List<BranchDto> branchDtoList = new ArrayList<>();
-//                repo.getBranches().forEach(branch -> {
-//                    BranchDto branchDto = new BranchDto();
-//                    branchDto.setName(branch.getName());
-//                    branchDto.setLastCommitSha(branch.getLastCommit().getSha());
-//                    branchDtoList.add(branchDto);
-//                });
-//
-//                dto.setBranchList(branchDtoList);
-//                repositoryDtoList.add(dto);
-//            });
-//
-//
-//            return repositoryDtoList;
-//        }
-//    }
 
 
 
